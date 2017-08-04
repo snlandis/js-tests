@@ -1,0 +1,23 @@
+{
+    "name": "av-js-tests",
+    "version": "1.0.0",
+    "description": "A seed project for using the Karma test framework",
+    "main": "index.js",
+    "scripts": {
+        "test": "karma start config/karma.conf.js",
+        "test-once": "karma start config/karma.conf.js --single-run",
+        "test-1": "karma start config/karma-1.conf.js",
+        "test-2": "karma start config/karma-2.conf.js",
+        "test-3": "karma start config/karma-3.conf.js",
+        "test-1-once": "karma start config/karma-1.conf.js --single-run",
+        "test-2-once": "karma start config/karma-2.conf.js --single-run",
+        "test-3-once": "karma start config/karma-3.conf.js --single-run"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "jasmine-core": "^2.7.0",
+        "karma": "^1.7.0",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-jasmine": "^1.1.0"
+    }
+}
