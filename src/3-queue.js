@@ -36,5 +36,19 @@
      process2
      process1
 
- *
  */
+
+/*
+I'm honestly pretty lost here. It says "create QueueService function." So there's step 1, I think.
+
+While digging around I found this on mozilla: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop.
+Specifically the event loop.:
+while (queue.waitForMessage()) {
+  queue.processNextMessage();
+}
+
+I think this would be important to run at some point.
+
+I think ultimately I'd look to see if there was a library or other tool to handle this. For simplicity and time's sake.
+
+*/
